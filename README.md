@@ -15,7 +15,6 @@ Itinerary Agent - Creates day-wise itinerary, places to visit activities
 Final response - Combines all information and generates final response
  groq LLm ( llama 3)
  
-
 Shared State (TravelState)
 suer_query  flight_results hotel_results itinerary final_response message
 
@@ -25,3 +24,21 @@ stores -
    User perferences
    Agent outputs and state updates
    
+
+# How to run ?
+
+1. Create the Virtual Envirnoment
+
+```bash
+conda create -n travel python=3.11 -y
+
+2. Activate the Environment 
+
+```bash
+conda activate travel 
+
+3. Install the requirements
+
+```bash 
+ pip install -r requirements.txt
+
