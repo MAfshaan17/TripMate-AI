@@ -42,3 +42,5 @@ conda activate travel
 ```bash 
  pip install -r requirements.txt
 
+
+This project is made to learn, understand and increase my knowledge, any mistake here pls ignore it i am just a learner 
